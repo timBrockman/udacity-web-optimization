@@ -8,4 +8,9 @@
 
 The source project lies at [https://github.com/udacity/frontend-nanodegree-mobile-portfolio](https://github.com/udacity/frontend-nanodegree-mobile-portfolio)
 
+##current status
+	[x] base repo files created
+	[x] source files copied over
+	[] gulpfile created (at least serve)
+	[] node modules installed
 
