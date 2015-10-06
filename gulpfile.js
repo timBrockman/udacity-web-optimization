@@ -5,18 +5,27 @@ var gulp  = require('gulp');
 //var shell = require('gulp-shell');
 var browserSync = require('browser-sync').create();
 
-// Static Server is fine
-gulp.task('serve', function(){
+//preview (src + watch)
+gulp.task('preview', function(){
 
   browserSync.init({
       server: {
-            baseDir:"./"}
+            baseDir:"./src/"}
       });
   gulp.watch(['*.html'], browserSync.reload);
   gulp.watch(['css/*.css'], browserSync.reload);
   gulp.watch(['scripts/**/*.js'], browserSync.reload);
   gulp.watch(['images/**/*'], browserSync.reload);
   });
+//static serve dist (full-optimized)
+gulp.task('serve', function(){
+
+    browserSync.init({
+        server: {
+              baseDir:"./dist/"}
+        });
+    });
+
 /* this is failing
 gulp.task('ngrok', function(){
   browserSync.init({server:{baseDir:"./"}},
