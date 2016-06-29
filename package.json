@@ -2,12 +2,12 @@
   "name": "fend-web-optimization",
   "version": "0.0.0",
   "description": "web optimization exercise",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Cameron et al",
+  "license": "Apache",
   "devDependencies": {
     "browser-sync": "^2.11.1",
     "gulp": "^3.9.1",
