@@ -1,10 +1,20 @@
 //var ngrok = require('ngrok');
 
-var gulp  = require('gulp');
-//var gOpen = require('gulp-open');
-//var shell = require('gulp-shell');
-var browserSync = require('browser-sync').create();
-
+const gulp  = require('gulp');
+const browserSync = require('browser-sync').create();
+const imagemin = require('gulp-imagemin');
+// gulp imagemin chokes on big pizza image
+gulp.task('minimg', function(){
+  gulp.src('src/img/*')
+    .pipe(imagemin())
+    .pipe(gulp.dest('dist/img'));
+});
+gulp.task('minimages', function(){
+  gulp.src("src/views/images/*.jpg")
+    .pipe(imagemin())
+    .pipe(gulp.dest("dist/views/images"));
+});
+gulp.task('imgmin',['minimg','minimages']);
 //preview (src + watch)
 gulp.task('preview', function(){
 

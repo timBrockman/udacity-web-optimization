@@ -11,6 +11,22 @@ The source project lies at [https://github.com/udacity/frontend-nanodegree-mobil
 ##current status
 	[x] base repo files created
 	[x] source files copied over
-	[] gulpfile created (at least serve)
-	[] node modules installed
+	[x] ngrok set up for pagespeed testing
+	[x] gulpfile created (at least serve)
+	[x] gruntfile created (after gulp-imagemin ate turd)
+	[x] node modules installed
+	[x] imagemin
+	[x] image resize
+	[x] min html
+	[x] min css
 
+## index.html
+	- inlined style.css
+	- @import'd Open Sans
+	- print.css now media="print"
+	- async'd all javascript
+	- imagemin'd Needed grunt (gulp imagemin chokes)
+	- images resized
+	- html, js, & css minified
+
+## 
