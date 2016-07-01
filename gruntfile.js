@@ -51,7 +51,7 @@ module.exports = function(grunt){
         },
         files: [{
           expand: true,
-          src: ['img/*.{gif,jpg,png}','views/images/*.{gif,jpg,png}'],
+          src: ['views/images/*.{gif,jpg,png}'],
           cwd: 'src/',
           dest: 'dist/'
         }]
@@ -60,7 +60,7 @@ module.exports = function(grunt){
 			dev:{
 				files:[{
 					expand: true,
-					src: ['views/images/*.{jpg,png}'],
+					src: ['views/images/*.{gif,jpg,png}'],
 					cwd:'dist/',
 					dest:'dist/'
 				}]
@@ -70,7 +70,7 @@ module.exports = function(grunt){
 			dev:{
 				files:[{
 					expand:true,
-					src:['**/*', '!img/**/*.*','!**/*.html','!views/images/*.*'],
+					src:['**/*','!**/*.html','!views/images/pizzeria.jpg'],
 					cwd: 'src/',
 					dest: 'dist/'
 				}]
