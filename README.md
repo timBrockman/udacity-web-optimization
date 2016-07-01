@@ -30,4 +30,16 @@ The source project lies at [https://github.com/udacity/frontend-nanodegree-mobil
 	- images resized
 	- html, js, & css minified
 
-##
+## pizzeria.html
+	- optimize images (why not)
+
+### computational efficiency
+
+
+## main.js
+
+### frame rate
+	- scroll event only checks position and passes it to scrollHandler
+	- scrollHandler uses request animation frame to cut 10 frames to under 2ms
+
+### computational efficiency
