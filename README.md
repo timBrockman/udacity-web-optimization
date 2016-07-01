@@ -19,6 +19,7 @@ The source project lies at [https://github.com/udacity/frontend-nanodegree-mobil
 	[x] image resize
 	[x] min html
 	[x] min css
+	[x] dumped out gulpfile and npm gulp*
 
 ## index.html
 	- inlined style.css
@@ -29,4 +30,4 @@ The source project lies at [https://github.com/udacity/frontend-nanodegree-mobil
 	- images resized
 	- html, js, & css minified
 
-## 
+##
