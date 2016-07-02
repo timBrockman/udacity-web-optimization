@@ -33,9 +33,6 @@ The source project lies at [https://github.com/udacity/frontend-nanodegree-mobil
 ## pizzeria.html
 	- optimize images (why not)
 
-### computational efficiency
-	-
-
 ## main.js
 
 ### frame rate
@@ -43,3 +40,6 @@ The source project lies at [https://github.com/udacity/frontend-nanodegree-mobil
 	- scrollHandler uses request animation frame to cut 10 frames to under 2ms
 
 ### computational efficiency
+	-	separated size calculations to separate function for on load on resize 
+	- used handles to query dom elements
+	- left with simple function to update style width without selector query or size calculation
