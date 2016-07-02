@@ -537,9 +537,11 @@ function scrollHandler(){
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
-  var ylim = Math.floor(window.innerHeight/256);
-  var lim = Math.floor(ylim/cols);
+  var ylim = Math.ceil(window.innerHeight / 256);
+  var lim = (ylim * cols);
   setPizzaSizes();
+  var pbox = document.getElementById('movingPizzas1');
+  var elem;
   for (var i = 0; i < lim; i++) {
     elem = document.createElement('img');
     elem.className = 'mover';
@@ -548,7 +550,7 @@ document.addEventListener('DOMContentLoaded', function() {
     elem.style.width = "73.333px";
     elem.basicLeft = (i % cols) * s;
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
-    document.getElementById("movingPizzas1").appendChild(elem);
+    pbox.appendChild(elem);
   }
   updatePositions();
   movers = document.getElementsByClassName('mover');
