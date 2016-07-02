@@ -23,6 +23,9 @@ The source project lies at [https://github.com/udacity/frontend-nanodegree-mobil
 	[x] min html
 	[x] min css
 	[x] dumped out gulpfile and npm gulp*
+	[x] on scroll event only gets scrolly
+	[x] request animation frame
+	
 
 ## index.html pagespeed
 	- inlined style.css
