@@ -1,6 +1,6 @@
 # Udacity FEND front end optimization challenge
 
-to view the finished demo visit :
+To view the finished demo visit:
 [https://timbrockman.com/udacity-web-optimization/](https://timbrockman.com/udacity-web-optimization/)
 
 	1. start with Cameron's portfolio page
