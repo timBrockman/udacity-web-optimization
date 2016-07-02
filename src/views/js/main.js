@@ -403,7 +403,7 @@ var pizzaElementGenerator = function(i) {
 var smPizza = 0;//document.querySelector("#randomPizzas").offsetWidth;
 var mdPizza = 0;
 var lgPizza = 0;
-var pizzaContainer = document.getElementById('pizzaContainer');
+var pizzaContainer = document.getElementById('randomPizzas');
 var pizzaSize = document.getElementById('pizzaSize');
 var pizzas = document.getElementsByClassName('randomPizzaContainer');
 function setPizzaSizes(){
