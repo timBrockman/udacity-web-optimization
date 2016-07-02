@@ -21,20 +21,20 @@ The source project lies at [https://github.com/udacity/frontend-nanodegree-mobil
 	[x] min css
 	[x] dumped out gulpfile and npm gulp*
 
-## index.html
+## index.html pagespeed
 	- inlined style.css
 	- @import'd Open Sans
 	- print.css now media="print"
 	- async'd all javascript
-	- imagemin'd Needed grunt (gulp imagemin chokes)
-	- images resized
+	- imagemin needed grunt (gulp imagemin was choking)
+	- images resized and imagemin'd
 	- html, js, & css minified
 
 ## pizzeria.html
 	- optimize images (why not)
 
 ### computational efficiency
-
+	-
 
 ## main.js
 
