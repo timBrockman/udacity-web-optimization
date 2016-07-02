@@ -1,5 +1,8 @@
 # Udacity FEND front end optimization challenge
 
+to view the finished demo visit :
+[https://timbrockman.com/udacity-web-optimization/](https://timbrockman.com/udacity-web-optimization/)
+
 	1. start with Cameron's portfolio page
 	2. optimize it (first pagespeed then framerate)
 	3. ?
@@ -40,6 +43,6 @@ The source project lies at [https://github.com/udacity/frontend-nanodegree-mobil
 	- scrollHandler uses request animation frame to cut 10 frames to under 2ms
 
 ### computational efficiency
-	-	separated size calculations to separate function for on load on resize 
+	-	separated size calculations to separate function for on load on resize
 	- used handles to query dom elements
 	- left with simple function to update style width without selector query or size calculation
