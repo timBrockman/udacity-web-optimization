@@ -1,7 +1,9 @@
 # Udacity FEND front end optimization challenge
 
-To view the finished demo visit:
+To run the finished demo visit:
 [https://timbrockman.com/udacity-web-optimization/](https://timbrockman.com/udacity-web-optimization/)
+
+## general objective
 
 	1. start with Cameron's portfolio page
 	2. optimize it (first pagespeed then framerate)
@@ -25,7 +27,7 @@ The source project lies at [https://github.com/udacity/frontend-nanodegree-mobil
 	[x] dumped out gulpfile and npm gulp*
 	[x] on scroll event only gets scrolly
 	[x] request animation frame
-	
+
 
 ## index.html pagespeed
 	- inlined style.css
