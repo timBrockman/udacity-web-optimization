@@ -27,6 +27,7 @@ The source project lies at [https://github.com/udacity/frontend-nanodegree-mobil
 	[x] dumped out gulpfile and npm gulp*
 	[x] on scroll event only gets scrolly
 	[x] request animation frame
+	[x] css tweaks for background animation
 
 
 ## index.html pagespeed
@@ -51,3 +52,8 @@ The source project lies at [https://github.com/udacity/frontend-nanodegree-mobil
 	-	separated size calculations to separate function for on load on resize
 	- used handles to query dom elements
 	- left with simple function to update style width without selector query or size calculation
+
+## view/style.css
+
+	- .mover transform:translateZ(0);
+	- .mover backface-visibility:hidden;
